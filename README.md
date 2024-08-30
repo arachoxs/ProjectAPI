@@ -1,0 +1,1 @@
+Una API simple implementada en python usando sodapy y pandas que se enfoca en usar la informcion que se encuentra en el portal Nacional de Datos Abiertos sobre los casos positivos de covid 19 y mostrarlo dependiendo el departamento que se ingrese 
