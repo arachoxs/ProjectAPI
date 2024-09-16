@@ -15,4 +15,6 @@ while data_api.empty:
 data_api = DataAPI.data_filter(data_api, "ciudad_municipio_nom", "departamento_nom", "edad",
                                "fuente_tipo_contagio", "estado")
 
+interface.frame_inf(data_api)
+
 interface.show_data(data_api, limite)
