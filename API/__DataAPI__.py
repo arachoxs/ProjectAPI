@@ -23,10 +23,10 @@ def get_data(limite_registros, nombre_departamento):
 def process_data(results):
     # Convert to pandas DataFrame
     results_df = pd.DataFrame.from_records(results)
-    results_df.replace('N/A', np.nan, inplace=True) #reemplazo todos los "N/A" por nan debido a que el dataframe no los reconoce como texto
     return results_df
 
 
 def data_filter(data_api, *colums_name):
     data_api = data_api[list(colums_name)]
     return data_api
+
